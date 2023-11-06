@@ -1,28 +1,23 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
+"use client";
+import {Inter} from "next/font/google";
+import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+const inter = Inter({subsets: ["latin"]});
 
-const inter = Inter({ subsets: ['latin'] })
+const metadata: Metadata = {
+  title: "Car || Hub",
+  description: "The best car in the world.",
+};
 
-export const metadata: Metadata = {
-  title: 'Car || Hub',
-  description: 'The best car in the world.',
-}
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar/>
+        <Navbar />
         {children}
-        <Footer/>
-        </body>
+        <Footer />
+      </body>
     </html>
-  )
+  );
 }
