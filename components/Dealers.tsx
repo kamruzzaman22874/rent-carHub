@@ -10,7 +10,7 @@ const Dealers = () => {
     const [deaclares, setDeaclares] = useState([])
 
     useEffect(() => {
-        fetch("https://rent-car-hub.vercel.app/declare")
+        fetch("https://car-showcase-server.vercel.app/declare")
             .then(res => res.json())
             .then(data => {
                 setDeaclares(data)
