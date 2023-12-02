@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Sedan",
+        "image": "https: //i.ibb.co/pjyXF1b/01.png"
+    },
+    {
+        "title": "Compact",
+        "image": "https://i.ibb.co/r24gRy9/02.png"
+    },
+    {
+        "title": "Convertible",
+        "image": "https://i.ibb.co/DMDzr6H/03.png"
+    },
+    {
+        "title": "SUV",
+        "image": "https://i.ibb.co/1rc5sF6/04.png"
+    },
+    {
+        "title": "Crossover",
+        "image": "https://i.ibb.co/fCqHBMZ/05.png"
+    },
+    {
+        "title": "Wagon",
+        "image": "https://i.ibb.co/cwqzmCY/06.png"
+    },
+    {
+        "title": "Sports",
+        "image": "https://i.ibb.co/fd6mNSQ/07.png"
+    },
+    {
+        "title": "Pickup",
+        "image": "https://i.ibb.co/3FbBNfh/08.png"
+    },
+    {
+        "title": "Family MPV",
+        "image": "https://i.ibb.co/DKHH89R/09.png"
+    },
+    {
+        "title": "Coupe",
+        "image": "https://i.ibb.co/VpX6sNQ/10.png"
+    },
+    {
+        "title": "Electric",
+        "image": "https://i.ibb.co/HHmhbFy/11.png"
+    },
+    {
+        "title": "Luxury",
+        "image": "https://i.ibb.co/bNt5MQw/12.png"
+    }
+]

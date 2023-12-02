@@ -7,11 +7,12 @@ const Navbar = () => {
         <Link href="/" className="flex justify-center items-center">
           <h2 className="text-2xl font-extrabold">CarHub</h2>
         </Link>
-        <ul className="flex p-2 text-xl font-bold">
-          <li className="p-2 cursor-pointer">Login</li>
+        <ul className="flex p-2 justify-center text-xl font-bold">
+          <Link href="/"><li className="p-2 cursor-pointer">Home</li></Link>
+          <Link href="/login"><li className="p-2 cursor-pointer">Login</li></Link>
         </ul>
       </nav>
-    </header>
+    </header >
   );
 };
 

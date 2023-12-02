@@ -1,0 +1,58 @@
+[
+    {
+        "title": "25 Listing",
+        "name": "Automotive Gear",
+        "location": "25/B Arambag Dhaka",
+        "phone": "01988899955",
+        "image": "https://i.ibb.co/MgS32xq/dealers1.png"
+    },
+    {
+        "title": "25 Listing",
+        "name": "Keithson Car",
+        "location": "9/A Midford Road, Dhaka",
+        "phone": "01988899956",
+        "image": "https://i.ibb.co/r0DG8H2/dealers2.png"
+    },
+    {
+        "title": "15 Listing",
+        "name": "Superious Automotive",
+        "location": "25/C Khulshi, Khulna",
+        "phone": "01988899957",
+        "image": "https://i.ibb.co/thVVg1B/dealers3.png"
+    },
+    {
+        "title": "20 Listing",
+        "name": "Racing Gear Car",
+        "location": "35/D Dinajpur BD",
+        "phone": "01988899958",
+        "image": "https://i.ibb.co/xD69Bbq/dealers4.png"
+    },
+    {
+        "title": "19 Listing",
+        "name": "Car Showromio",
+        "location": "65/A EPZ Chottogram",
+        "phone": "01988899959",
+        "image": "https://i.ibb.co/Jt9Mc00/dealers5.png"
+    },
+    {
+        "title": "40 Listing",
+        "name": "Fastspeedio Car",
+        "location": "15/D New Road Barishal",
+        "phone": "01988899960",
+        "image": "https://i.ibb.co/xLD4Hb6/dealers6.png"
+    },
+    {
+        "title": "59 Listing",
+        "name": "Star AutoMall",
+        "location": "05/R Zindabazar Sylhet",
+        "phone": "01988899961",
+        "image": "https://i.ibb.co/dDMxn33/dealers7.png"
+    },
+    {
+        "title": "28 Listing",
+        "name": "Superspeed Auto",
+        "location": "66/A Stadium Rajshahi",
+        "phone": "01988899962",
+        "image": "https://i.ibb.co/TtWgnKS/dealers8.png"
+    }
+]
