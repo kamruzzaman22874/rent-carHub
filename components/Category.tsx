@@ -27,7 +27,7 @@ const Category = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-10">
                 {
-                    categories?.map(category => <div key={category._id} className="card bg-base-100 shadow-md rounded-lg bg-white">
+                    categories?.map(category => <div key={category._id} className="card shadow-md rounded-lg bg-white">
                         <figure className="px-10 pt-10 hover:animate-spin">
                             <Image className="w-full" src={category?.image} width={300} height={100} alt="car" />
                         </figure>

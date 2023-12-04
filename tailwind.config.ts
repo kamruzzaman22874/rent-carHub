@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        roboto: "var(--font-roboto)"
       },
       colors: {
         "black-100": "#2B2C35",
@@ -30,5 +31,5 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

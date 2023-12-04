@@ -1,22 +1,27 @@
-"use client";
-import {Inter} from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-const inter = Inter({subsets: ["latin"]});
+import Providers from "@/providers";
+const inter = Inter({ subsets: ["latin"] });
+import Toaster from "@/components/Toaster"
 
-const metadata: Metadata = {
+export const metadata = {
   title: "Car || Hub",
   description: "The best car in the world.",
 };
 
-export default function RootLayout({children}: {children: React.ReactNode}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
+        <Providers>
+          <Navbar />
+          {children}
+          <Footer />
+        </Providers>
+
+        <Toaster />
       </body>
     </html>
   );
